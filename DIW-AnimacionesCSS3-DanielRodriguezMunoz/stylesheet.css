@@ -1,0 +1,57 @@
+#capa1 {position:absolute; top:10%; left:5%; right: 50%; bottom: 50%;}
+#capa2 {position:absolute; top:10%; left:50%; right: 5%; bottom: 50%;}
+#capa3 {position:absolute; top:50%; left:5%; right: 50%; bottom: 10%;}
+#capa4 {position:absolute; top:50%; left:50%; right: 5%; bottom: 10%;}
+div {text-align: center; font-weight: bolder; font-style: italic;}
+h1 {text-align: center;}
+
+@keyframes cambioColor {
+    0% {background-color: blue;}
+    100% {background-color: magenta;}
+}
+
+.cambioColor {
+    width: 95%;
+    height: 95%;
+    animation-name: cambioColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes cambioPosicion {
+    0% {background-color: lime; top:0; }
+    100% {background-color: yellow; top:100%; }
+}
+
+.cambioPosicion {
+    width: 95%;
+    height: 95%;
+    position: relative;
+    background-color: black;
+    animation-name: cambioPosicion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes mostrarDesaparecer {
+    0% { opacity: 0; }
+    100% { opacity: 100%; }
+}
+
+.mostrarDesaparecer {
+    width: 95%;
+    height: 95%;
+    animation-name: mostrarDesaparecer;
+    background-color: red;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}

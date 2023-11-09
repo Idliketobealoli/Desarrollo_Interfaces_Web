@@ -1,0 +1,27 @@
+.azul { color: blue; }
+.destacar { color: cornflowerblue; }
+footer { font-size: 1.25rem; }
+div.nota { font-size: small; }
+h1 { font-family: verdana; }
+p { font-family: serif; }
+h2 { font-family: 'Times New Roman', Times, serif; }
+.bolder { font-weight: bolder; }
+h3 { font-weight: 300; }
+li { font-style: italic; line-height: 24px; }
+body { line-height: 1.4em; }
+a { text-decoration: none; }
+.tachado { text-decoration: line-through; }
+.centrado { text-align: center; }
+.derecha { text-align: right; }
+.identado { text-indent: 16px; }
+.mayuscula { text-transform: uppercase; }
+.fondoAzul {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+p.conImagen { background-image: url(https://camo.githubusercontent.com/6adc49306227cdf5b5540365845e689649cfa3f6218b6336b442836e075f7521/68747470733a2f2f692e696d6775722e636f6d2f754e64446f50542e676966); }
+p.conMargen { margin: 10px 8px 15px 0; }
+p.conPadding { padding: 1rem 0 0.5rem 0.25rem; }
+div { border: 1px solid cornflowerblue; }
+img { float: left; }
+div.romperfloats { clear: both; }

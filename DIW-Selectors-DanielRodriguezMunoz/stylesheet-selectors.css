@@ -1,0 +1,191 @@
+.prueba {
+    color: #ff0000;
+}
+.prueba1.prueba2 {
+    color: #990000;
+}
+.prueba1 .prueba2 {
+    color: #550000;
+}
+#idPrueba {
+    color: aliceblue;
+    background-color: cadetblue;
+}
+* {
+    font-weight: bold;
+}
+h1 {
+    color: darkmagenta;
+}
+h1.anotherClass {
+    color: magenta;
+}
+h2, h3 {
+    color: cadetblue;
+}
+div p {
+    font-style: italic;
+}
+div>p {
+    font-style: oblique;
+}
+div+p {
+    font-style: italic;
+    font-weight: bold;
+}
+p~ul {
+    color: blue;
+}
+[atributo1] {
+    color: coral;
+}
+[atributo1="uwu"] {
+    color: coral;
+    background-color: chocolate;
+}
+[atributo1~="wo"] {
+    color: cornflowerblue;
+    background-color: blue;
+}
+[atributo1|="awi"] {
+    color: darkcyan;
+    background-color: aquamarine;
+}
+a[href^="https"] {
+    color: deeppink;
+}
+a[href$=".php"]{
+    color: darkgoldenrod;
+}
+a[href*="w3schools"] {
+    color: darkcyan;
+}
+a:active {
+    color: darkviolet;
+}
+p::after {
+    content: "  - texto despues de un p";
+}
+p::before {
+    content: "texto antes de un p -  ";
+}
+input:checked {
+    height: 50px;
+}
+input:default {
+    font-style: italic;
+    color: darkcyan;
+    font-weight: bolder;
+}
+input:disabled {
+    color: darkgray;
+}
+p:empty {
+    background-color: goldenrod;
+}
+input:enabled {
+    color: lightgray;
+}
+p:first-child {
+    color: white;
+    background-color: black;
+}
+p::first-letter {
+    color: forestgreen;
+}
+p::first-line {
+    text-decoration-style: dashed;
+}
+p:first-of-type {
+    color:greenyellow;
+    background-color: black;
+}
+input:focus {
+    color: pink;
+}
+:fullscreen {
+    background-color: hotpink;
+}
+a:hover {
+    color: lime;
+}
+input:in-range {
+    border: 2px solid yellow;
+}
+input:indeterminate {
+    border: 2px solid orange;
+}
+input:in-range {
+    border: 2px solid orangered;
+}
+p:lang(es) {
+    font-weight: bolder;
+}
+p:last-child {
+    font-weight: lighter;
+}
+p:last-of-type {
+    font-style: italic;
+}
+a:link {
+    color: orange;
+}
+::marker {
+    color: cornflowerblue;
+}
+:not(p) {
+    text-align: center;
+}
+p:nth-child(2) {
+    text-align: end;
+}
+p:nth-last-child(2) {
+    font-style: oblique;
+}
+p:nth-last-of-type(2) {
+    background-color: lightgoldenrodyellow;
+}
+p:nth-of-type(2) {
+    background-color: darkseagreen;
+}
+p:only-of-type {
+    color: crimson;
+}
+p:only-child {
+    color: lightseagreen;
+}
+input:optional {
+    background-color: lightgoldenrodyellow;
+}
+input:out-of-range {
+    background-color: darkgoldenrod;
+}
+input::placeholder {
+    background-color: lightblue;
+}
+input:read-only {
+    font-weight: bolder;
+}
+input:read-write {
+    font-style: italic;
+}
+input:required {
+    background-color: mediumvioletred;
+}
+:root {
+    background-color: #ffccff;
+}
+::selection {
+    color: white;
+    background-color: rebeccapurple;
+}
+#news:target {
+    color: darkblue;
+}
+input:valid {
+    background-color: #550000;
+    color: red;
+}
+a:visited {
+    color: lightgreen;
+}

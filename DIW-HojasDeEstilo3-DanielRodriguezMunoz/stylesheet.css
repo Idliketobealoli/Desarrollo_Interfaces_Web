@@ -1,0 +1,33 @@
+h3 { font-style: italic; margin: 10px; }
+h4 { font-style: italic; margin: 15px; font-weight: bold; }
+p { font-style: italic; margin: 15px; }
+div {
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+    color: darkmagenta;
+    width:fit-content;
+    height:auto;
+    border:2px solid darkmagenta;
+}
+div.imagen { background:url(image1.png) center; }
+div.color1 { background: #ffccff; }
+div.color2 { background: #ff99ff; }
+div.color3 { background: #ff66ff; }
+div.color4 { background: #ff33ff; }
+div.color5 { background: #ff00ff; }
+p.sombras { text-shadow: 2px 2px 2px #ff66ff; }
+div.desbordar {
+    white-space: nowrap;
+    width: 14em;
+    height: 1.6em;
+    padding: 0;
+    overflow: hidden;
+}
+div.desbordar:hover {
+    text-overflow: inherit;
+    overflow: visible;
+}
+
+div.degradado1 { background: #ffccff -webkit-gradient(linear, left bottom, left top, color-stop(0, #ff66ff), color-stop(1, #cc00cc)); }
+div.degradado2 { background: #ffccff -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(#ffccff), color-stop(0.5, #ff66ff), to(#cc00cc)); }
